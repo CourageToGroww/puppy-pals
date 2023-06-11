@@ -40,3 +40,30 @@
 .read-the-docs {
   color: #888;
 }
+
+.featured-card{
+  border: 2px solid rgb(79, 187, 169);
+  border-radius: 10%;
+  padding: 2em;
+  margin: 2em;
+  background-color: rgb(49, 33, 33);
+  height: 350px;
+  width: 350px;
+}
+
+.featured-name {
+  color: rgb(168, 247, 236);
+  font-weight: bold;
+}
+
+.stat-color {
+  color: rgb(0, 153, 255);
+  padding: 2px;
+  list-style-type: none;
+}
+
+.pup-selector {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
